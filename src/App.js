@@ -13,11 +13,11 @@ import {
 
 } from "react-router-dom";
 
-
+const REACT_APP_NEWS_API="6be84d7f1bae4efa9d7b5acf999cd135";
 export default class App extends Component {
   
    Pagesize=12;
-   apikey=process.env.REACT_APP_NEWS_API;
+   apikey=REACT_APP_NEWS_API;
    state={
     progress:100
    }
