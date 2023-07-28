@@ -46,8 +46,7 @@ export default class App extends Component {
           <Route path="/general1"  element={<News setProgress={this.setProgress} pagesize={this.Pagesize} key="general2" category='general' country='in'/>} ></Route>   
         </Routes>     
      </Router>
-      </div>
-      
+      </div>      
     )
  
   }

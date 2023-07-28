@@ -15,9 +15,9 @@ export class NewsItem extends Component {
     <h5 className="card-title">{Name}....</h5>
     
     <p className="card-text">{description}...</p>
-    <span class="badge1 position-absolute top-0  translate-middle badge rounded-pill bg-danger" style={{left:'85%',zIndex:'1'}}>
+    <span className="badge1 position-absolute top-0  translate-middle badge rounded-pill bg-danger" style={{left:'85%',zIndex:'1'}}>
     {source}
-    <span class="visually-hidden">unread messages</span>
+    <span className="visually-hidden">unread messages</span>
   </span>
     <p className="card-text"><small className="text-muted">By {author?author:"unknown"} on <br /> {new Date(date).toGMTString()}</small></p>
     <a href={url}   className="btn btn-primary">Read More</a>
